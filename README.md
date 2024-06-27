@@ -112,9 +112,3 @@ Both techniques are used to ensure correct program execution and avoid hazards t
 
 
 # Results
-
-# Pipeline processor working
-
-We gave the processor model a series of different instructions to check it's functionality and robustness. For example below is a set of instructions given and the result obtained:
-
-`under progress`
