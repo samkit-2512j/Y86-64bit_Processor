@@ -109,6 +109,3 @@ We are now prepared to create the pipeline control logic to finish our design. T
 - Stalling, on the other hand, is a technique used to hold a stage of the pipeline in place and prevent it from advancing until the preceding stage has completed its work. This is typically used to resolve data hazards, where a later instruction depends on data produced by an earlier instruction that has not yet completed execution. The stalled instruction remains in the pipeline, but no further progress is made until the data dependency is resolved.
 
 Both techniques are used to ensure correct program execution and avoid hazards that can arise in pipelined processors. However, they can also introduce additional delays and reduce performance if used excessively, so they need to be used judiciously. Techniques such as forwarding and speculation can be used to reduce the need for bubbling and stalling in the pipeline.
-
-
-# Results
